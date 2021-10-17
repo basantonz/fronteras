@@ -1,0 +1,156 @@
+@font-face {
+	font-family: "fuente1";
+	src: url("../fonts/BetterGrade.ttf");
+}
+@font-face{
+	font-family: "fuente2";
+	src: url("../fonts/KGEverSinceNewYork.ttf");
+}
+@font-face{
+	font-family: "fuente3";
+	src: url("../fonts/I-pixel-u.ttf");
+
+}
+@font-face{
+	font-family: "fuente4";
+	src: url("../fonts/Minecraftia-Regular.ttf");
+
+}
+@font-face{
+	font-family: "fuente5";
+	src: url("../fonts/Armstrong.otf");
+
+}
+@font-face{
+	font-family: "fuente6";
+	src: url("../fonts/AllNote.otf");
+
+}
+.fuente-p{
+	font-family: fuente4;
+}
+.cuadro-1 {
+	background: black;
+}
+
+.cuadro-2 {
+	background: black;
+}
+
+.cuerpo {
+	background: #FFFFFF;
+	color: white;
+}
+
+.cabecera {
+	background: #ffc627;
+	color: #5e3327;
+	font-family: fuente2;
+	padding: 1% 0 1% 0;
+	font-size: 20px;
+	border-bottom: 2px solid white;
+}
+
+.icono {
+	color: #5e3327;
+	text-align: right;
+	margin-top: -10px;
+	margin-bottom: -15px;
+}
+.inte{
+	background-color: #2A364E !important;
+}
+.icono-2 {
+	color: #42547b;
+	text-align: right;
+	margin-top: -10px;
+	margin-bottom: -15px;
+
+}
+.fot{
+	background-color: #5e3327 !important;
+}
+.tit-fot{
+	color: white;
+	font-family: fuente5;
+}
+.desc-fot{
+	font-family: fuente6;
+	font-size: 20px;
+}
+.icono:hover,.icono:focus {
+	color: white;
+	text-decoration: none !important;
+	background-image: radial-gradient(white, white) !important;
+	background-position: 0% 100% !important;
+	background-repeat: no-repeat !important;
+	background-size: 0% 1px !important;
+	transition: background-size .3s !important;
+}
+
+.quitar {
+	text-decoration: none !important;
+	color: black !important;
+	font-size: 30px;
+}
+
+.imagen {
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+.imagen2 {
+	padding-right: unset !important;
+}
+
+h1{
+	font-family: fuente2;
+	color: white;
+}
+a.tituloo {
+	color: #5e3327;
+	cursor: pointer;
+	text-decoration: none;
+	background-image: linear-gradient(#5e3327, #5e3327);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .3s;
+}
+a:hover.tituloo,
+a:focus.tituloo {
+	color: #5e3327;
+	background-size: 100% 2px;
+}
+a {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	background-image: linear-gradient(white, white);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .3s;
+}
+
+
+a:hover,
+a:focus {
+	color: white;
+	background-size: 100% 2px;
+}
+.btn-ligth:hover{
+	background-color: black !important;
+}
+.fuentesita{
+	font-family: fuente3;
+}
+.int-icon{
+
+}
+.finalizimo{
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 2px solid white;
+}
