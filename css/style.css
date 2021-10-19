@@ -38,7 +38,7 @@
 }
 
 .cuerpo {
-	background: #FFFFFF;
+	background: #333;
 	color: white;
 }
 
@@ -150,4 +150,7 @@ a:focus {
 	margin-top: 30px;
 	padding-top: 20px;
 	border-top: 2px solid white;
+}
+div.back-cuerpo{
+	background-color: #444 !important;
 }
